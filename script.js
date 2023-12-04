@@ -65,7 +65,7 @@ function newGame() {
 function startQuiz() {
     currentQuestionIndex = 0;
     score = 0;
-    nextButton.style.display = "block";  // Show the next button
+    nextButton.style.display = "block";
     nextButton.innerHTML = "Next";
     showQuestion();
 }
