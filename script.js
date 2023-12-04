@@ -36,7 +36,44 @@ const questions = [
             {text: "Johannesburg", correct: false},
             {text: "Bloemfontein", correct: false},
         ]
-    }
+    },
+    {
+        question: "Bafana Bafana is the nickname for the men's national soccer (football) team from what country?" + 
+        " The team is ranked 71st internationally as of October 2019.",
+        answers: [
+            {text: "The All Blacks", correct: false},
+            {text: "Bafana Bafana", correct: true},
+            {text: "Springboks", correct: false},
+            {text: "Supa Strikas", correct: false},
+        ]
+    },
+    {
+        question: " South African leader Nelson Mandela spent 18 of his 27 years of incarceration on what island off the coast of Cape Town??",
+        answers: [
+            {text: "Dassen Island", correct: false},
+            {text: "Duiker Island", correct: false},
+            {text: "Maio", correct: false},
+            {text: "Robben Island", correct: true}
+        ]
+    },
+    {
+        question: "What colorful waterway is the longest river within the borders of South Africa?",
+        answers: [
+            {text: "Red River", correct: false},
+            {text: "Blue River", correct: false},
+            {text: "Orange River", correct: true},
+            {text: "Yellow River", correct: false},
+        ]
+    },
+    {
+        question: "Known as a mining powerhouse, what country is frequently the world's top annual producer of chrome, manganese, platinum, and vanadium?",
+        answers: [
+            {text: "South Africa", correct: true},
+            {text: "Zimbabwe", correct: false},
+            {text: "Madagascar", correct: false},
+            {text: "Morocco", correct: false},
+        ]
+    },
 ];
 
 const questionElement = document.getElementById("question");
